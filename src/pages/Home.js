@@ -1,4 +1,5 @@
 import React from 'react';
+import Employees from '../employee.json';
 
 function Home() {
   return (

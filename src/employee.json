@@ -1,0 +1,77 @@
+[{
+  "id" : 1,
+  "firstname": "Brad",
+  "lastname" : "Pitt",
+  "position": "Front End Web Developer",
+  "salary" : "60000"
+},
+{
+  "id" : 2,
+  "firstname": "Ichigo",
+  "lastname" : "Kurosaki",
+  "position": "Back End Web Developer",
+  "salary" : "60000"
+},
+{
+  "id" : 3,
+  "firstname": "Leonardo",
+  "lastname" : "D'Caprio",
+  "position": "Software Analyst",
+  "salary" : "80000"
+},
+{
+  "id" : 4,
+  "firstname": "Naruto",
+  "lastname" : "Uzumaki",
+  "position": "Software Engineer",
+  "salary" : "90000"
+},
+{
+  "id" : 5,
+  "firstname": "Jack",
+  "lastname" : "Cole",
+  "position": "Full Stack Engineer",
+  "salary" : "90000"
+},
+{
+  "id" : 6,
+  "firstname": "Mick",
+  "lastname" : "Bates",
+  "position": "Senior Web Developer",
+  "salary" : "110000"
+},
+{
+  "id" : 7,
+  "firstname": "Harry",
+  "lastname" : "Pottah",
+  "position": "Front End Web Developer",
+  "salary" : "60000"
+},
+{
+  "id" : 8,
+  "firstname": "Hermione",
+  "lastname" : "Weasley",
+  "position": "Front End Web Developer",
+  "salary" : "60000"
+},
+{
+  "id" : 9,
+  "firstname": "Tanjiro",
+  "lastname" : "Kamado",
+  "position": "Back End Web Developer",
+  "salary" : "60000"
+},
+{
+  "id" : 10,
+  "firstname": "Annie",
+  "lastname" : "January",
+  "position": "Software Engineer II",
+  "salary" : "130000"
+},
+{
+  "id" : 11,
+  "firstname": "Becca",
+  "lastname" : "Butcher",
+  "position": "Software Engineer I",
+  "salary" : "90000"
+}]
