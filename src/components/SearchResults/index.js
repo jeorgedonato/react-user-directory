@@ -10,9 +10,11 @@ const SearchResults = (props) => {
           return (
             <Card key={e.id} style={{ width: "18rem" }}>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>
+                  {e.firstname} {e.lastname}
+                </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
-                  Card Subtitle
+                  {e.position}
                 </Card.Subtitle>
                 <Card.Text>
                   Some quick example text to build on the card title and make up

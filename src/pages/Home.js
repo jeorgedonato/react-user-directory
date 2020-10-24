@@ -5,12 +5,15 @@ import employees from "../employee.json";
 
 function Home() {
   const [employeeSearch, setEmployeeSearch] = useState("");
+  const [employeesArr, setEmployeesArr] = useState(employees);
   const handleChange = (e) => {
     setEmployeeSearch(e.target.value);
+    setEmployeesArr(
+      employees.filter((ea) => {
+        return ea.firstname.search(employeeSearch) >= 0;
+      })
+    );
   };
-
-  const [employeesArr, setEmployeesArr] = useState(employees);
-
   return (
     <>
       <SearchBar value={employeeSearch} handleChange={handleChange} />
