@@ -3,25 +3,21 @@ import { Container, Card } from "react-bootstrap";
 import "./style.css";
 
 const SearchResults = (props) => {
+  const bg = ['primary','secondary','success','info','dark'];
   return (
     <>
       <Container>
         {props.employees.map((e) => {
           return (
-            <Card key={e.id} style={{ width: "18rem" }}>
+            <Card bg={bg[Math.floor(Math.random() * 5)]} className="text-white" key={e.id} style={{ width: "18rem" }}>
+              <Card.Header ><h5> {e.firstname} {e.lastname}</h5></Card.Header>
               <Card.Body>
                 <Card.Title>
-                  {e.firstname} {e.lastname}
+                 {e.position}
                 </Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  {e.position}
+                <Card.Subtitle className="mb-2 text-white">
+                  Salary: $ {e.salary}
                 </Card.Subtitle>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
               </Card.Body>
             </Card>
           );
