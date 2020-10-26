@@ -4,16 +4,31 @@ import SearchResults from "../components/SearchResults";
 import employees from "../employee.json";
 
 function Home() {
-  let uniqueJob = [];
-  employees.map(e => {return e.position}).forEach(eu => {if(!uniqueJob.includes(eu)) {uniqueJob.push(eu)} });
+  
+ 
   const [employeeSearch, setEmployeeSearch] = useState("");
   const [employeesArr, setEmployeesArr] = useState(employees);
-  // const [employeesJob, setEmployeesJob] = useState("");
+ 
   const handleChange = (e) => {
     setEmployeeSearch(e.target.value);
   };
 
-  const handleResults = () => {
+  const findUniqueJob = () => {
+    let uniqueJob = [];
+     employees.map(e => {return e.position}).forEach(eu => {if(!uniqueJob.includes(eu)) {uniqueJob.push(eu)} });
+     return uniqueJob;
+  };
+  const [employeesJob, setEmployeesJob] = useState(findUniqueJob());
+
+  const handleJobRes = position => {
+    setEmployeesArr(employees.filter((ea,i) => {
+        return ea.position === position ;
+    }))
+      // setEmployeeSearch("");
+  };
+
+  useEffect(()=> {
+    const handleResults = () => {
     if(!employeeSearch){
       setEmployeesArr(employees);
       // setEmployeesJob(uniqueJob);
@@ -24,22 +39,13 @@ function Home() {
     }
   };
 
-  const handleJobRes = position => {
-    
-    setEmployeesArr(employees.filter((ea,i) => {
-        return ea.position === position ;
-    }))
-      // setEmployeeSearch("");
-  };
-
-  useEffect(()=> {
     handleResults();
   },[employeeSearch]);
   
   
   return (
     <>
-      <SearchBar value={employeeSearch} handleChange={handleChange} job={uniqueJob} handleJobRes={handleJobRes} />
+      <SearchBar value={employeeSearch} handleChange={handleChange} job={employeesJob} handleJobRes={handleJobRes} />
       <SearchResults employees={employeesArr} />
     </>
   );
