@@ -3,75 +3,86 @@
   "firstname": "Brad",
   "lastname" : "Pitt",
   "position": "Front End Web Developer",
-  "salary" : "60000"
+  "salary" : "60000",
+  "imgSrc": "https://www.memesmonkey.com/images/memesmonkey/c1/c1ee68aaf2d25541a4ea3a99314677a7.png"
 },
 {
   "id" : 2,
   "firstname": "Ichigo",
   "lastname" : "Kurosaki",
   "position": "Back End Web Developer",
-  "salary" : "60000"
+  "salary" : "60000",
+  "imgSrc": "https://i.ytimg.com/vi/Y2V_nER5vlA/maxresdefault.jpg"
 },
 {
   "id" : 3,
   "firstname": "Leonardo",
   "lastname" : "D'Caprio",
   "position": "Software Analyst",
-  "salary" : "80000"
+  "salary" : "80000",
+  "imgSrc": "https://imgflip.com/s/meme/Leonardo-Dicaprio-Cheers.jpg"
 },
 {
   "id" : 4,
   "firstname": "Naruto",
   "lastname" : "Uzumaki",
   "position": "Software Engineer",
-  "salary" : "90000"
+  "salary" : "90000",
+  "imgSrc": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e193d555-3070-45fa-99da-0851af22d5af/d4xneps-17e6b13f-5928-4ce6-9e39-5947921b74e7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTE5M2Q1NTUtMzA3MC00NWZhLTk5ZGEtMDg1MWFmMjJkNWFmXC9kNHhuZXBzLTE3ZTZiMTNmLTU5MjgtNGNlNi05ZTM5LTU5NDc5MjFiNzRlNy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.TL9TAv_nC7E3Mvqp-Eh7vKwoPn7ipfKGtBa5QAhiLlQ"
 },
 {
   "id" : 5,
   "firstname": "Jack",
   "lastname" : "Cole",
   "position": "Full Stack Engineer",
-  "salary" : "90000"
+  "salary" : "90000",
+  "imgSrc":"https://media1.tenor.com/images/3bcc46438454fe74e19c6876d9aabd4a/tenor.gif?itemid=5807632"
 },
 {
   "id" : 6,
-  "firstname": "Mick",
-  "lastname" : "Bates",
-  "position": "Senior Web Developer",
-  "salary" : "110000"
+  "firstname": "Dwight",
+  "lastname" : "Schrute",
+  "position": "Assistant to the Senior Web Developer",
+  "salary" : "210000",
+  "imgSrc": "https://pbs.twimg.com/profile_images/1212841876895813632/4mzarqqS.jpg"
 },
 {
   "id" : 7,
   "firstname": "Harry",
   "lastname" : "Pottah",
   "position": "Front End Web Developer",
-  "salary" : "60000"
+  "salary" : "60000",
+  "imgSrc" : "https://vignette.wikia.nocookie.net/harrypotter/images/0/07/POA_promo_closeup_Harry_Potter_02.jpg/revision/latest/scale-to-width-down/340?cb=20070802110158"
 },
 {
   "id" : 8,
   "firstname": "Hermione",
   "lastname" : "Weasley",
   "position": "Front End Web Developer",
-  "salary" : "60000"
+  "salary" : "60000",
+  "imgSrc": "https://pbs.twimg.com/profile_images/1218981687608037377/vH5u2uHP.jpg"
 },
 {
   "id" : 9,
   "firstname": "Tanjiro",
   "lastname" : "Kamado",
   "position": "Back End Web Developer",
-  "salary" : "60000"
+  "salary" : "60000",
+  "imgSrc" : "https://cdn.costumewall.com/wp-content/uploads/2020/01/Tanjiro-Kamado.jpg"
 },
 {
   "id" : 10,
   "firstname": "Annie",
   "lastname" : "January",
   "position": "Software Engineer II",
-  "salary" : "130000"
+  "salary" : "130000",
+  "imgSrc" : "https://64.media.tumblr.com/4d5e643581d4ff46492ca8faffe46fd7/tumblr_pvv9ndBRga1qdhps7o5_500.gifv"
 },
 {
   "id" : 11,
   "firstname": "Becca",
   "lastname" : "Butcher",
   "position": "Software Engineer I",
-  "salary" : "90000"
+  "salary" : "90000",
+  "imgSrc" : "https://i.pinimg.com/474x/e7/5b/11/e75b11883a62b3236397f3305937ebac.jpg"
 }]
